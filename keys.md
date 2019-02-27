@@ -1,4 +1,4 @@
-# redisNotes
+# redisNotes key 操作
 ```
 //
 set age 18
@@ -25,5 +25,14 @@ del wangzhi
 
 renamenx newkey //如果新明不存在，改名
 
-getwww.zixue.it
+get www.zixue.it
+
+set site www.zixue.it
+set serach www.so.com
+renamenx site sea
+get sea
+renamenx sea search
+
+keys *
+
 ```
