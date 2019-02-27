@@ -36,3 +36,11 @@ renamenx sea search
 keys *
 
 ```
+
+##redis有16个数据库
+```
+keys *
+select 1
+keys *
+
+```
