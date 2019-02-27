@@ -10,7 +10,7 @@ keys name
 keys na[m]
 keys k*
 //
-randomkey 
+randomkey  //返回随机key
 
 //
 del age
@@ -29,11 +29,14 @@ get www.zixue.it
 
 set site www.zixue.it
 set serach www.so.com
-renamenx site sea
+renamenx site sea //nx : not exists
 get sea
 renamenx sea search
 
 keys *
+type key //判断key类型
+exitsts key ///判断key是否存在
+
 
 ```
 
